@@ -1,9 +1,8 @@
-// Seleccionamos el botón y el párrafo por su ID
-const boton = document.getElementById('cambiarMensaje');
+// Selección del botón y párrafo
+const boton = document.getElementById('boton');
 const mensaje = document.getElementById('mensaje');
 
-// Agregamos un evento 'click' al botón
+// Cambiar el texto del mensaje al hacer clic en el botón
 boton.addEventListener('click', () => {
-    // Cambiamos el texto del párrafo
-    mensaje.textContent = '¡El mensaje ha cambiado con JavaScript!';
+    mensaje.textContent = '¡El texto ha cambiado!';
 });
